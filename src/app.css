@@ -1,0 +1,87 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-flow: wrap;
+  border: 5px solid black;
+}
+
+.white {
+  width: 12.3%;
+  height: 12.3%;
+  background-color: rgb(243, 226, 194);
+}
+.black {
+  width: 12.3%;
+  height: 12.3%;
+  background-color: rgb(195, 160, 130);
+}
+
+.block {
+  display: grid;
+  align-items: center;
+  border: 0.5px solid black;
+}
+
+.gameover {
+  height: 20vh;
+  font-size: 36px;
+  color: red;
+}
+.center {
+  display: grid;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.winner {
+  height: 20vh;
+  font-size: 28px;
+  color: rgb(0, 4, 255);
+}
+.restart {
+  height: 20vh;
+  font-size: 24px;
+  color: rgb(7, 14, 46);
+}
+
+.restart > div {
+  border: 2px solid rgb(73, 255, 103);
+  padding: 8px;
+  background: greenyellow;
+}
+
+.anim {
+  animation: grad 2000 ease-in infinite;
+}
+
+@keyframes grad {
+  0% {
+    opacity: 0.2;
+  }
+  25% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+/* 
+box-shadow: 0 20px 68px rgb(0 0 0 / 55%);
+background: rgba(171, 184, 195, 1);
+*/
