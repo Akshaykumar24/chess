@@ -67,7 +67,7 @@ function App() {
   const [cb, setCb] = useState(cbi);
   const [sel, setSel] = useState([]);
   const [deleted, setDeleted] = useState([]);
-  const [gameOver, setGameOver] = useState(true);
+  const [gameOver, setGameOver] = useState(false);
   const [winner, setWinner] = useState("");
   // const [obb, setObb] = useState(obi);
   const [isBlackTurn, setIsBlackTurn] = useState(true);
