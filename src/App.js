@@ -248,6 +248,7 @@ function App() {
             })}
           </div>
           <div>
+            <div>Turn of {isBlackTurn ? "Black" : "White"} Player</div>
             <h2>Dead Pawns</h2>
             {deleted.map((a, i) => {
               return (
